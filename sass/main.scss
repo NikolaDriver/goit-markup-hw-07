@@ -1,4 +1,9 @@
+@import "./utils/vars";
+@import "./utils/hidden";
 
-body {
-    background-color: antiquewhite;
-}
+@import "./base/reset";
+
+@import "./components/conteiner";
+
+@import "./layout/header";
+@import "./layout/hero";
