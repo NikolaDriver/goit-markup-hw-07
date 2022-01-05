@@ -2,6 +2,7 @@
     padding-top: 0px;
 }
 .specification-title {
+    text-align: center;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -11,6 +12,9 @@
 .specification-item {
     position: relative;
     display: flex;
+        &:not(:last-child){
+        margin-right: 30px;
+    }
 }
 .specification-text {
     position: absolute;
@@ -30,15 +34,10 @@
     background-color:rgba(47, 48, 58, 0.8);
 }
 
-.specification-item:not(:last-child){
-    margin-right: 30px;
-}
+
 .specification-list { 
     display: flex;
     margin-top: 50px;
 }
 
 
-.specification-title {
-    text-align: center;
-}

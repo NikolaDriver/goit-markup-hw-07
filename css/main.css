@@ -77,14 +77,6 @@ a {
   color: #000000;
 }
 
-.logo-firstpartfooter {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  color: var(--accent-color);
-}
-
 .logo-secondpartfooter {
   color: #FFFFFF;
 }
@@ -128,14 +120,14 @@ a {
   fill: currentColor;
 }
 
+.mail-icon:hover {
+  fill: var(--accent-color);
+}
+
 .tell-icon {
   display: inline-block;
   margin-right: 10px;
   fill: currentColor;
-}
-
-.mail-icon:hover {
-  fill: var(--accent-color);
 }
 
 .tell-icon:hover {
@@ -155,13 +147,7 @@ a {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
-  color: var(--accent-color);
-}
-
-.nav-link:hover,
-.nav-link:focus {
+.contacts-link:hover, .contacts-link:focus {
   color: var(--accent-color);
 }
 
@@ -176,6 +162,10 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: var(--accent-color);
 }
 
 .current::after {
@@ -331,10 +321,6 @@ a {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-coment:focus {
-  border-color: var(--accent-color);
-}
-
 .modal-form-input:focus {
   border-color: var(--accent-color);
 }
@@ -357,6 +343,10 @@ a {
   resize: none;
   outline: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-coment:focus {
+  border-color: var(--accent-color);
 }
 
 .modal-input-field {
@@ -479,6 +469,7 @@ a {
 }
 
 .specification-title {
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -489,6 +480,10 @@ a {
 .specification-item {
   position: relative;
   display: flex;
+}
+
+.specification-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .specification-text {
@@ -508,17 +503,9 @@ a {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.specification-item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .specification-list {
   display: flex;
   margin-top: 50px;
-}
-
-.specification-title {
-  text-align: center;
 }
 
 .team {
@@ -526,6 +513,7 @@ a {
 }
 
 .team-title {
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -566,7 +554,7 @@ a {
   margin-left: 10px;
 }
 
-.team-social-link {
+.team-sociallink {
   width: 100%;
   height: 100%;
   display: flex;
@@ -579,8 +567,7 @@ a {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-social-link:hover,
-.team-social-link:focus {
+.team-sociallink:hover, .team-sociallink:focus {
   background-color: var(--accent-color);
   fill: white;
 }
@@ -589,10 +576,6 @@ a {
   background: #FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-}
-
-.team-title {
-  text-align: center;
 }
 
 .team-list-profession {
