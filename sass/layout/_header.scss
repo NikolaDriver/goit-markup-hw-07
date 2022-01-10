@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
 }
-.header-nav-list {
+.header-nav__list {
     display: flex;
     margin-left: 93px;
 }
@@ -16,15 +16,15 @@
     align-items: center;
 }
 
-.contacts {
+.header-contacts {
     display: flex;
     margin-left: auto;
 }
 
-.header-nav-item:not(:last-child){
+.header-nav__item:not(:last-child){
     margin-right: 50px;
 }
-.contacts-item+.contacts-item {
+.header-contacts__item+.header-contacts__item {
     margin-left: 50px;
 }
 
@@ -46,7 +46,7 @@
 }
 
 
-.contacts-link {
+.header-contacts__link {
     display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -65,7 +65,7 @@
 }
 }
 
-.nav-link {
+.header-nav__link {
     position: relative;
     display: inline-block;
     padding-top: 32px;

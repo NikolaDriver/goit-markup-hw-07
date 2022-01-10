@@ -1,7 +1,7 @@
 .section.specification {
     padding-top: 0px;
 }
-.specification-title {
+.specification__title {
     text-align: center;
     font-weight: 700;
     font-size: 36px;
@@ -9,14 +9,14 @@
     letter-spacing: 0.03em;
     color: var(--second-title-color);
 }
-.specification-item {
+.specification__item {
     position: relative;
     display: flex;
         &:not(:last-child){
         margin-right: 30px;
     }
 }
-.specification-text {
+.specification__text {
     position: absolute;
     display: flex;
     height: 70px;
@@ -35,7 +35,7 @@
 }
 
 
-.specification-list { 
+.specification__list { 
     display: flex;
     margin-top: 50px;
 }

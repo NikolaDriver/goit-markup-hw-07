@@ -1,4 +1,4 @@
-.priorities-title {
+.priorities__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -17,17 +17,17 @@
     justify-content: center;
 }
 
- .priorities-title:not(:last-child){
+ .priorities__title:not(:last-child){
     margin-right: 30px;
  }
- .priorities-text:not(:last-child){
+ .priorities__text:not(:last-child){
     margin-right: 30px;
  }
- .priorities-list {
+ .priorities {
     display: flex;
  }
 
-.priorities-text {
+.priorities__text {
     margin-top: 10px;
 
     font-weight: 400;
