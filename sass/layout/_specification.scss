@@ -1,7 +1,7 @@
-.section.specification {
+.section__nopadding-top {
     padding-top: 0px;
 }
-.specification__title {
+.section__title {
     text-align: center;
     font-weight: 700;
     font-size: 36px;
@@ -35,7 +35,7 @@
 }
 
 
-.specification__list { 
+.specification { 
     display: flex;
     margin-top: 50px;
 }

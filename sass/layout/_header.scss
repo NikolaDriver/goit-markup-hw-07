@@ -1,9 +1,9 @@
-.header-section {
+.header {
     border-bottom: 1px solid;
     color: #ECECEC;
 }
 
-.header-conteiner {
+.header__conteiner {
     display: flex;
     align-items: center;
 }
@@ -28,18 +28,10 @@
     margin-left: 50px;
 }
 
-.mail-icon {
+.header-contacts__icon {
     display:inline-block;
     margin-right: 10px;
     fill:currentColor;
-    &:hover {
-        fill: var(--accent-color);
-    }
-}
-.tell-icon {
-    display: inline-block;
-    margin-right: 10px;
-    fill: currentColor;
     &:hover {
         fill: var(--accent-color);
     }
@@ -83,7 +75,7 @@
     color: var(--accent-color);
     }
 }
-.current::after {
+.header-nav-link__current::after {
     position: absolute;
     display: block;
     content:"";

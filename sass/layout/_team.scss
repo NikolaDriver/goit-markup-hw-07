@@ -1,7 +1,7 @@
-.team {
+.section__other-beckground {
     background-color:#F5F4FA ;
 }
-.team__title {
+.section__title {
     text-align: center;
     font-weight: 700;
     font-size: 36px;
@@ -9,7 +9,7 @@
     letter-spacing: 0.03em;
     color: var(--second-title-color);
 }
-.team-item__name {
+.team__title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -17,14 +17,14 @@
     color: var(--third-title-color);
 }
 
-.team__list {
+.team {
     display: flex;
     margin-top: 50px;
 }
 .team__item:not(:last-child){
     margin-right: 30px;
 }
-.team-item__card {
+.team__card {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
@@ -40,7 +40,7 @@
 
 }
 
-.team-item__profession{
+.team__text{
     margin-top: 10px;
     margin-bottom: 16px;
 
